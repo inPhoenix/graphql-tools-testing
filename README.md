@@ -9,10 +9,9 @@
 ## Description
 
 The mergeSchemas function in the graphql-tools package has a problem when used with version 10. 
-Instead of combining schemas as expected, it ends up overwriting them. To ensure compatibility with both versions of GraphQL,
-I'm using version 15 of graphql. This allows for a seamless switch between the mergeSchemas function of both graphql-tools versions 
-without any major complications. 
-It's worth mentioning that ApolloServer v4 recommends using version 16 of graphql.
+Instead of combining schemas as expected, it ends up overwriting them. 
+To ensure compatibility with both versions of graphql-tools, I'm using version 15 of graphql. This allows for a seamless switch between the mergeSchemas function of both graphql-tools versions 
+without any major complications. It's worth mentioning that ApolloServer v4 recommends using version 16 of graphql.
 
 ```javascript
 const mergedSchema = mergeSchemas({
