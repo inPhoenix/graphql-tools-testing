@@ -1,0 +1,24 @@
+{
+  "name": "graphql-tools-testing",
+  "version": "1.0.0",
+  "description": "playing with graphql-tools",
+  "scripts": {
+    "start": "nodemon server.js",
+    "dev": "nodemon server.js"
+  },
+  "type": "module",
+  "dependencies": {
+    "@apollo/client": "^3.7.16",
+    "@apollo/server": "^4.7.5",
+    "@graphql-tools/batch-execute": "^9.0.0",
+    "@graphql-tools/executor-http": "^1.0.0",
+    "@graphql-tools/links": "^9.0.0",
+    "@graphql-tools/schema": "^10.0.0",
+    "@graphql-tools/wrap": "^10.0.0",
+    "graphql": "^15.8.0",
+    "fetch": "^1.1.0",
+    "graphql-tools": "4.0.8",
+    "nodemon": "^2.0.22",
+    "prettier": "^2.8.8"
+  }
+}
